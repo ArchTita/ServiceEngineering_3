@@ -1,0 +1,8 @@
+# 项目排除路径
+/common/target/
+/consumer_12002/target/
+/consumer_server_12000/target/
+/eureka_server_13000/target/
+/eureka_server_13002/target/
+/provider_server_11000/target/
+/provider_server_11002/target/
