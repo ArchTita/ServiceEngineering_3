@@ -7,6 +7,9 @@ spring:
 
 
 eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
   client:
     service-url:
       #需要注册给Eureka Server的地址，也就是将自己注册给哪一个Eureka Server

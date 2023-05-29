@@ -13,6 +13,10 @@ public class User implements Serializable {
         this.password = password;
     }
 
+    public User() {
+
+    }
+
     public Integer getUserId() {
         return userId;
     }
